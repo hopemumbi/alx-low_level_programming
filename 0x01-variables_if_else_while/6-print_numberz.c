@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char i;
+	int i;
 
 	i = 48;
 	do {
