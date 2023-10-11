@@ -18,7 +18,7 @@ void jack_bauer(void)
 			_putchar(58);
 			_putchar((minutes / 10) + '0');
 			_putchar((minutes % 10) + '0');
-			if ( hours + minutes != 82)
+			if (hours + minutes != 82)
 			{
 				_putchar('\n');
 			}
