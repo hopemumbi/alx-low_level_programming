@@ -2,7 +2,7 @@
 /**
  * _abs - computes the absolute value of an integer.
  * @a: random no
- * return 'c' or 'a'
+ * Return: 'c' or 'a'
  */
 int _abs(int a)
 {
