@@ -17,10 +17,14 @@ int _atoi(char *s)
 		{
 			sign = -1;
 		}
-		if (s[i] >= '0' && s[i] <= '9')
+		else if (s[i] >= '0' && s[i] <= '9')
 		{
 			result = result * 10 + s[i] - '0';
 			digit = 1;
+		}
+		else if (result > (214783647 - (s[i] - '0')) / 10)
+		{
+			return ((sign == 1) ? 2147483647 : -2147483648);
 		}
 		else if (digit)
 		{
