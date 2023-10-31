@@ -17,7 +17,11 @@ void print_rev(char *s)
 	{
 		length++;
 	}
-
+/**
+ *Strings are arrays of chars, and array indexes start to count from 0.
+ *because the array starts at 0
+ *if we want the last charachter, we need the length-1
+ */
 	for (i = length - 1; i >= 0; i--)
 	{
 		putchar(s[i]);
