@@ -8,13 +8,13 @@ char *leet(char *str)
 {
 	int i, j;
 	char chars[] = "aAeEoOtTlL";
-	Char repl[] = "4433007711";
+	char repl[] = "4433007711";
 
 	/**loop thru the whole string until the null terminator**/
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		/**loop thru the characters to be replaced**/
-		for (j = 0; char[j] != '\0'; j++)
+		for (j = 0; chars[j] != '\0'; j++)
 		{
 			/**
 			 * if any character in @str matches any in @chars
@@ -22,7 +22,7 @@ char *leet(char *str)
 			 */
 			if (str[i] == chars[j])
 			{
-				str[i] == repl[i];
+				str[i] = repl[j];
 				/**exit inner loop once substitution is made**/
 				break;
 			}
