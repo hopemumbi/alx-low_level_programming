@@ -11,6 +11,12 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
+	/** handles the special case of the most negative number**/
+	if (n == -214748364)
+	{
+		_putchar('-');
+		n = 214748364;
+	}
 	/**
 	 * recursive function
 	 * first checks if the number is greater than or equal to 10
