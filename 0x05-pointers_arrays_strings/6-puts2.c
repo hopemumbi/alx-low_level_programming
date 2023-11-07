@@ -9,8 +9,10 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i += 2)
+	/*Increment the index by 2 to skip every other character.*/
+	for (i = 0; str[i] != '\0'; i++)
 	{
+		if (i % 2 == 0)
 		putchar(str[i]);
 	}
 	putchar('\n');
