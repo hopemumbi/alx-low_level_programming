@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * cap_string - capitalizes all words of a string.
  *@str: string to be capitalized
@@ -22,15 +23,24 @@ char *cap_string(char *str)
 				capitalize = 1;
 			}
 		}
-		/**Check if character is lowercase**/
-		if (capitalize && (str[i] >= 'a' && str[i] <= 'z'))
+		if (isdigit(str[i]))
 		{
-			str[i] = str[i] - 32;
 			capitalize = 0;
 		}
-		else if (capitalize && (str[i] >= 'A' && str[i] <= 'Z'))
+		/**Check if character is alphabet**/
+		if (capitalize && isalpha(str[i]))
 		{
-			capitalize = 0;
+			/**Check if character is lowercase**/
+			if (str[i] >= 'a' && str[i] <= 'z')
+			{
+				str[i] = str[i] - 32;
+				capitalize = 0;
+			}
+			/**Check if character is uppercase**/
+			else if (str[i] >= 'A' && str[i] <= 'Z')
+			{
+				capitalize = 0;
+			}
 		}
 	}
 	return (str);
