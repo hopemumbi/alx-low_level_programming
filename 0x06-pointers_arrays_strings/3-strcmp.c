@@ -11,6 +11,7 @@ int _strcmp(char *s1, char *s2)
 	 * and the characters at the current positions in both strings are equal.
 	 */
 	for (; (*s1 != '\0' && *s2 != '\0') && (*s1 == *s2); s1++, s2++)
+		;
 	/**loop exits coz strings are equal and returns 0**/
 		if (*s1 == *s2)
 		{
