@@ -8,6 +8,8 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
+	/**pointer to the memory area 's'**/
+	char *ptr = s;
 	/**counter : tracks the no of bytes filled**/
 	unsigned int i;
 
@@ -19,5 +21,5 @@ char *_memset(char *s, char b, unsigned int n)
 		 */
 		s[i] = b;
 	}
-	return (s);
+	return (ptr);
 }
