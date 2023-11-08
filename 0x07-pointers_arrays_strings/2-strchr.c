@@ -17,7 +17,8 @@ char *_strchr(char *s, char c)
 			/**return a pointer to the first occurrence of c in the string s.**/
 			return (s + i);
 		}
-		if (s[i] == 0)
+		/**check if we have reached the end of the string**/
+		if (s[i] == '\0')
 		{
 			return (NULL);
 		}
