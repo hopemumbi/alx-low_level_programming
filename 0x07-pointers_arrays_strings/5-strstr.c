@@ -10,6 +10,12 @@ char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
+	/**If needle is empty, return the haystack.**/
+	if (*needle == '\0')
+	{
+		return (haystack);
+	}
+
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
 /**Initialize a new index variable for each character in haystack**/
