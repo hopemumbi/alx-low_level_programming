@@ -7,7 +7,7 @@ void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		/**When the end of the string is reached**/
+		/**When the end of the string is reached terminate**/
 		return;
 	}
 	/**Recursively call _print_rev_recursion with the next character.**/
