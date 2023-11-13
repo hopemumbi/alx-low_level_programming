@@ -1,2 +1,6 @@
 #!/bin/bash
+# The above line specifies that this script should be executed using the Bash shell.
+
+# The following line uses the gcc compiler with the -c option to compile the specified C file ($CFILE) into an object file.
+# The -c option tells gcc to stop after the compilation stage, producing an object file but not creating the final executable.
 gcc -c $CFILE
