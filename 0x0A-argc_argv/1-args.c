@@ -7,7 +7,10 @@
  */
 int main(int argc, char **argv)
 {
-	**argv = **argv;
-	printf("%d\n", argc);
+	/**This line explicitly states that the parameter is intentionally unused**/
+	(void) argv;
+
+	printf("%d\n", argc - 1);
+
 	return (0);
 }
