@@ -6,7 +6,7 @@
 int main(void)
 {
 	int hex;
-	char hexx
+	char hexx;
 
 	for (hex = 48; hex <= 57; hex++)
 	{
