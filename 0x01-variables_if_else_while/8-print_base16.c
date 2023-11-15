@@ -6,14 +6,15 @@
 int main(void)
 {
 	int hex;
+	char hexx
 
 	for (hex = 48; hex <= 57; hex++)
 	{
 		putchar(hex);
 	}
-	for (hex = 97; hex <= 102; hex++)
+	for (hexx = 'a'; hexx <= 'f'; hexx++)
 	{
-		putchar(hex);
+		putchar(hexx);
 	}
 	putchar('\n');
 	return (0);
