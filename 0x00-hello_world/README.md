@@ -35,6 +35,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3>1-compiler</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/1-compiler">&rarr;</a>
+
 **<p>Script that compiles a C file but does not link.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -61,6 +62,7 @@ julien@ubuntu:~/c/0x00$ cat -v main.o | head
 
 <h3> 2-assembler</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/2-assembler">&rarr;</a>
+
 **<p>Script that generates the assembly code of a C code and save it in an output file.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -106,6 +108,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3>3-name</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/3-name">&rarr;</a>
+
 **<p>Script that compiles a C file and creates an executable named <code>cisfun</code>.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -130,6 +133,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3>4-puts.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/4-puts.c">&rarr;</a>
+
 **<p>C program that prints exactly <code>"Programming is like building a multilingual puzzle</code>, followed by a new line.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc 4-puts.c &amp;&amp; ./a.out
@@ -141,6 +145,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3>5-printf.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/5-printf.c">&rarr;</a>
+
 **<p>C program that prints exactly <code>with proper grammar, but the outcome is a piece of art,</code>, followed by a new line.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc -Wall 5-printf.c
@@ -153,6 +158,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3> 6-size.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/6-size.c">&rarr;</a>
+
 **<p>C program that prints the size of various types on the computer it is compiled and run on.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2&gt; /tmp/32
@@ -176,6 +182,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3>100-intel</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/100-intel">&rarr;</a>
+
 **<p>Script that generates the assembly code (Intel syntax) of a C code and save it in an output file.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -220,6 +227,7 @@ julien@ubuntu:~/c/0x00$
 
 <h3> 101-quote.c </h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/101-quote.c">&rarr;</a>
+
 **<p>C program that prints exactly <code>and that piece of art is useful" - Dora Korpar, 2015-10-19</code>, followed by a new line, to the standard error.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc -Wall -o quote 101-quote.c
