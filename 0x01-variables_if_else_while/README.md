@@ -58,7 +58,7 @@ Last digit of 809065140 is 0 and is 0
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###2-print_alphabet.c <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c">&rarr</a>
+###2-print_alphabet.c <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, followed by a new line.</p>**
 
@@ -68,7 +68,7 @@ abcdefghijklmnopqrstuvwxyz
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###3-print_alphabets.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/3-print_alphabets.c">&rarr</a>
+###3-print_alphabets.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/3-print_alphabets.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.</p>**
 
@@ -78,7 +78,7 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###4-print_alphabt.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/4-print_alphabt.c">&rarr</a>
+###4-print_alphabt.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/4-print_alphabt.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, followed by a new line.</p>**
 
@@ -89,7 +89,7 @@ julien@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###5-print_numbers.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/5-print_numbers.c">&rarr</a>
+###5-print_numbers.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/5-print_numbers.c">&rarr;</a>
 
 **<p>Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.</p>**
 
@@ -99,7 +99,7 @@ julien@ubuntu:~/0x01$ ./5-print_numbers
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###6-print_numberz.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/6-print_numberz.c">&rarr</a>
+###6-print_numberz.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/6-print_numberz.c">&rarr;</a>
 
 **<p>Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.</p>**
 
