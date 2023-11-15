@@ -1,19 +1,18 @@
 #include <stdio.h>
 /**
  * main - entry point
- * lower: lower case letter
- * upper: upper case letter
+ * alpha: the alphabet
  * Return: always (o)
  */
 int main(void)
 {
 	char alpha;
 
-	for (alpha = 97; alpha <= 122; alpha++)
+	for (alpha = 'a; alpha <= 'z'; alpha++)
 	{
 		putchar(alpha);
 	}
-	for (alpha = 65; alpha <= 90; alpha++)
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
 		putchar(alpha);
 	}
