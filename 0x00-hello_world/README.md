@@ -1,7 +1,5 @@
 # 0x00. C - Hello, World
 
-## FILES :bookmark_tabs::bookmark_tabs::bookmark_tabs::
-
 <h3>0-preprocessor</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/0-preprocessor">&rarr;</a>
 
