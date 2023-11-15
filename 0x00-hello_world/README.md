@@ -4,7 +4,7 @@ Write a script that runs a C file through the preprocessor and save the result i
   <li>The C file name will be saved in the variable $CFILE</li>
   <li>The output should be saved in the file c</li>
 </ul>
-<code>
+<pre><code>
   julien@ubuntu:~/c/0x00$ cat main.c 
 #include <stdio.h>
 
@@ -31,4 +31,4 @@ int main(void)
  return (0);
 }
 julien@ubuntu:~/c/0x00$ 
-</code>
+</code></pre>
