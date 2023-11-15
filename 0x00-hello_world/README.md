@@ -21,7 +21,7 @@
 ## RESOURCES:
 
  <ol>
-	<li><a href="/rltoken/d6TBbj0HA4EvnmpqvEz68Q" title="Everything you need to know to start with C.pdf" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first</em>)</li>
+	<li><a href="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231115T150914Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=52b8fdd68a1746b9350a47ef1a340b1004a491fc6436e67823ea2127d8f1f704" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first</em>)</li>
 	<li><a href="/rltoken/vY9KI1Ai38BUuydEfadtaA" title="Dennis Ritchie" target="_blank">Dennis Ritchie</a> </li>
 	<li><a href="/rltoken/f5nVwIVoNRrnddbX-5h5rw" title='"C" Programming Language: Brian Kernighan' target="_blank">“C” Programming Language: Brian Kernighan</a> </li>
 	<li><a href="/rltoken/J7yAaPGVuPoJI4iP1DuIPw" title="Why C Programming Is Awesome" target="_blank">Why C Programming Is Awesome</a> </li>
