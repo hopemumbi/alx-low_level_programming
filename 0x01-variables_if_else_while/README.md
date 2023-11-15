@@ -24,7 +24,7 @@ julien@ubuntu:~/0x01$ ./0-positive_or_negative
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-### 1-last_digit.c <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/1-last_digit.c">&rarr</a>
+### 1-last_digit.c <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/1-last_digit.c">&rarr;</a>
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable <code>n</code>.</p>**
 
