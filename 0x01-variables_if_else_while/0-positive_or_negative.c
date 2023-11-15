@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - enty point
+ *main - entry point
  *n: positive or negative integer
  *Return: always zero
  */
