@@ -3,19 +3,6 @@
 ### 0-positive_or_negative.c
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable <code>n</code> is positive or negative.</p>**
-<ul>
-	<li>You can find the source code <a href="https://github.com/alx-tools/0x01.c/blob/master/0-positive_or_negative_c">here</a></li>
-	<li>The variable <code>n</code> will store a different value every time you will run this program</li>
-	<li>The output of the program should be:</li>
-	<ul><li>The number, followed by</li>
-	<ul>
-		<li>if the number is greater than 0: is positive</li>
-		<li>if the number is 0: is zero</li>
-		<li>if the number is less than 0: is negative</li>
-	</ul>
-		<li>followed by a new line</li>
-</ul>
-</ul>
 
 <pre><code>julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 0-positive_or_negative.c -o 0-positive_or_negative
 julien@ubuntu:~/0x01$ ./0-positive_or_negative 
