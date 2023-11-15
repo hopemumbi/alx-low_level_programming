@@ -1,6 +1,6 @@
 # 0x01. C - Variables, if, else, while
 
-###0-positive_or_negative.c
+<h3>0-positive_or_negative.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c">&rarr;</a>
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable <code>n</code> is positive or negative.</p>**
@@ -25,7 +25,7 @@ julien@ubuntu:~/0x01$ ./0-positive_or_negative
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###1-last_digit.c
+<h3>1-last_digit.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/1-last_digit.c">&rarr;</a>
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable <code>n</code>.</p>**
@@ -60,7 +60,7 @@ Last digit of 809065140 is 0 and is 0
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###2-print_alphabet.c
+<h3>2-print_alphabet.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, followed by a new line.</p>**
@@ -71,7 +71,7 @@ abcdefghijklmnopqrstuvwxyz
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###3-print_alphabets.c
+<h3>3-print_alphabets.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/3-print_alphabets.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.</p>**
@@ -82,7 +82,7 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###4-print_alphabt.c
+<h3>4-print_alphabt.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/4-print_alphabt.c">&rarr;</a>
 
 **<p>Program that prints the alphabet in lowercase, followed by a new line.</p>**
@@ -94,7 +94,7 @@ julien@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###5-print_numbers.c
+<h3>5-print_numbers.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/5-print_numbers.c">&rarr;</a>
 
 **<p>Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.</p>**
@@ -105,7 +105,7 @@ julien@ubuntu:~/0x01$ ./5-print_numbers
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###6-print_numberz.c
+<h3>6-print_numberz.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/6-print_numberz.c">&rarr;</a>
 
 **<p>Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.</p>**
@@ -116,7 +116,7 @@ julien@ubuntu:~/0x01$ ./6-print_numberz
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###7-print_tebahpla.c
+<h3>7-print_tebahpla.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/7-print_tebahpla.c">&rarr;</a>
 
 **<p>Program that prints the lowercase alphabet in reverse, followed by a new line.</p>**
@@ -127,7 +127,7 @@ zyxwvutsrqponmlkjihgfedcba
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###8-print_base16.c
+<h3>8-print_base16.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/8-print_base16.c">&rarr;</a>
 
 **<p>Program that prints all the numbers of base 16 in lowercase, followed by a new line.</p>**
@@ -138,7 +138,7 @@ julien@ubuntu:~/0x01$ ./8-print_base16
 julien@ubuntu:~/0x01$
 </code></pre>
 
-###9-print_comb.c
+<h3>9-print_comb.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/9-print_comb.c">&rarr;</a>
 
 **<p>Program that prints all possible combinations of single-digit numbers.</p>**
@@ -149,7 +149,7 @@ julien@ubuntu:~/0x01$ ./9-print_comb | cat -e
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###100-print_comb3.c
+<h3>100-print_comb3.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/100-print_comb3.c">&rarr;</a>
 
 **<p>Program that prints all possible different combinations of two digits.</p>**
@@ -160,7 +160,7 @@ julien@ubuntu:~/0x01$ ./100-print_comb3
 julien@ubuntu:~/0x01$ 
 </code></pre>
 
-###102-print_comb5.c
+<h3>102-print_comb5.c</h3>
 <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/102-print_comb5.c ">&rarr;</a>
 
 **<p>Program that prints all possible combinations of two two-digit numbers.</p>**
