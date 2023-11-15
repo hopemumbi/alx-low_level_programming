@@ -1,8 +1,12 @@
 #include <stdio.h>
 /**
- *main - entry point
- *Return: 0
+ * main - prints a string using printf()
  *
+ * stdio.h stands for standard input-output header
+ * provides functions for input and output operations such as ..
+ * printf: Used to print formatted output to the console.
+ *
+ * Return: 0
  */
 int main(void)
 {

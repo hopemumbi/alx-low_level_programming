@@ -1,7 +1,2 @@
 #!/bin/bash
-# The above line specifies that this script should be executed using the Bash shell.
-
-# The following line uses the gcc compiler with the -E option to perform only preprocessing on the specified C file.
-# $CFILE is a placeholder for the input C file, which should be provided when running the script.
-# The result of the preprocessing is then saved to a file named 'c'.
 gcc -E $CFILE -o c
