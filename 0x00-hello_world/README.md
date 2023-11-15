@@ -1,53 +1,9 @@
 # 0x00. C - Hello, World
 
-## GENERAL :open_book::open_book::open_book::
-
- <ol>
-	<li>Why C programming is awesome </li>
-	<li>Who invented C</li>
-	<li>Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds</li>
-	<li>What happens when you type <code>gcc main.c</code></li>
-	<li>What is an entry point</li>
-	<li>What is <code>main</code></li>
-	<li>How to print text using <code>printf</code>, <code>puts</code> and <code>putchar</code></li>
-	<li>How to get the size of a specific type using the unary operator <code>sizeof</code></li>
-	<li>How to compile using <code>gcc</code></li>
-	<li>What is the default program name when compiling with <code>gcc</code></li>
-	<li>What is the official Holberton C coding style and how to check your code with <code>betty-style</code></li>
-	<li>How to find the right header to include in your source code when using a standard library function</li>
-	<li>How does the <code>main</code> function influence the return value of the program</li>
-</ol>
-
-## RESOURCES:
-
- <ol>
-	<li><a href="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231115T150914Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=52b8fdd68a1746b9350a47ef1a340b1004a491fc6436e67823ea2127d8f1f704" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first</em>)</li>
-	<li><a href="https://en.wikipedia.org/wiki/Dennis_Ritchie" title="Dennis Ritchie" target="_blank">Dennis Ritchie</a> </li>
-	<li><a href="https://www.youtube.com/watch?v=de2Hsvxaf8M" title='"C" Programming Language: Brian Kernighan' target="_blank">“C” Programming Language: Brian Kernighan</a> </li>
-	<li><a href="https://www.youtube.com/watch?v=smGalmxPVYc" title="Why C Programming Is Awesome" target="_blank">Why C Programming Is Awesome</a> </li>
-	<li><a href="https://www.youtube.com/watch?v=rk2fK2IIiiQ" title="Learning to program in C part 1" target="_blank">Learning to program in C part 1</a> </li>
-	<li><a href="https://www.youtube.com/watch?v=FwpP_MsZWnU" title="Learning to program in C part 2" target="_blank">Learning to program in C part 2</a> </li>
-	<li><a href="https://www.youtube.com/watch?v=VDslRumKvRA" title="Understanding C program Compilation Process" target="_blank">Understanding C program Compilation Process</a> </li>
-	<li><a href="https://github.com/alx-tools/Betty/wiki" title="Betty Coding Style" target="_blank">Betty Coding Style</a> </li>
-	<li><a href="https://twitter.com/unix_byte/status/1024147947393495040?s=21" title="Hash-bang under the hood" target="_blank">Hash-bang under the hood</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
-	<li><a href="https://harmful.cat-v.org/software/c++/linus" title="Linus Torvalds on C vs. C++" target="_blank">Linus Torvalds on C vs. C++</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
-</ol>
-
-## INTRODUCTION TO FILES :closed_book::closed_book::closed_book::
-
-0.	[**0-preprocessor**:](#0-preprocessor) Script that runs a C file through the preprocessor and save the result into another file.
-1.	[**1-compiler**:](#1-compiler) Script that compiles a C file but does not link.
-2.	[**2-assembler**:](#2-assembler) Script that generates the assembly code of a C code and save it in an output file.
-3.	[**3-name**:](#3-name) Script that compiles a C file and creates an executable named <code>cisfun</code>.
-4.	[**4-puts.c**:](#4-putsc) C program that prints exactly <code>"Programming is like building a multilingual puzzle</code>, followed by a new line.
-5.	[**5-printf.c**:](#5-printfc) C program that prints exactly <code>with proper grammar, but the outcome is a piece of art,</code>, followed by a new line.
-6.	[**6-size.c**:](#6-sizec) C program that prints the size of various types on the computer it is compiled and run on.
-7.	[**100-intel**:](#100-intel) Script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
-8.	[**101-quote.c**:](#101-quotec) C program that prints exactly <code>and that piece of art is useful" - Dora Korpar, 2015-10-19</code>, followed by a new line, to the standard error.
-
 ## FILES :bookmark_tabs::bookmark_tabs::bookmark_tabs::
 
-### 0-preprocessor
+<h3>0-preprocessor</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/0-preprocessor">&rarr;</a>
 
 **<p>Script that runs a C file through the preprocessor and save the result into another file.</p>**
 
@@ -79,8 +35,8 @@ int main(void)
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 1-compiler
-
+<h3>1-compiler</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/1-compiler">&rarr;</a>
 **<p>Script that compiles a C file but does not link.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -105,8 +61,8 @@ julien@ubuntu:~/c/0x00$ cat -v main.o | head
 ^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 2-assembler
-
+<h3> 2-assembler</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/2-assembler">&rarr;</a>
 **<p>Script that generates the assembly code of a C code and save it in an output file.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -150,8 +106,8 @@ main:
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 3-name
-
+<h3>3-name</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/3-name">&rarr;</a>
 **<p>Script that compiles a C file and creates an executable named <code>cisfun</code>.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -174,8 +130,8 @@ julien@ubuntu:~/c/0x00$ ls
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 4-puts.c
-
+<h3>4-puts.c</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/4-puts.c">&rarr;</a>
 **<p>C program that prints exactly <code>"Programming is like building a multilingual puzzle</code>, followed by a new line.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc 4-puts.c &amp;&amp; ./a.out
@@ -185,8 +141,8 @@ julien@ubuntu:~/c/0x00$ echo $?
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 5-printf.c
-
+<h3>5-printf.c</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/5-printf.c">&rarr;</a>
 **<p>C program that prints exactly <code>with proper grammar, but the outcome is a piece of art,</code>, followed by a new line.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc -Wall 5-printf.c
@@ -197,8 +153,8 @@ julien@ubuntu:~/c/0x00$ echo $?
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 6-size.c
-
+<h3> 6-size.c</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/6-size.c">&rarr;</a>
 **<p>C program that prints the size of various types on the computer it is compiled and run on.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2&gt; /tmp/32
@@ -220,8 +176,8 @@ julien@ubuntu:~/c/0x00$ echo $?
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 100-intel
-
+<h3>100-intel</h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/100-intel">&rarr;</a>
 **<p>Script that generates the assembly code (Intel syntax) of a C code and save it in an output file.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ export CFILE=main.c
@@ -264,8 +220,8 @@ main:
 julien@ubuntu:~/c/0x00$
 </code></pre>
 
-### 101-quote.c
-
+<h3> 101-quote.c </h3>
+<a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x00-hello_world/101-quote.c">&rarr;</a>
 **<p>C program that prints exactly <code>and that piece of art is useful" - Dora Korpar, 2015-10-19</code>, followed by a new line, to the standard error.</p>**
 
 <pre><code>julien@ubuntu:~/c/0x00$ gcc -Wall -o quote 101-quote.c
