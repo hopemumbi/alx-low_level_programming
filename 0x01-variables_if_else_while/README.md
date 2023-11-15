@@ -1,6 +1,6 @@
 # 0x01. C - Variables, if, else, while
 
-###0-positive_or_negative.c  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c">&rarr;</a>
+<h1>0-positive_or_negative.c</h1>  <a href="https://github.com/hopemumbi/alx-low_level_programming/blob/main/0x01-variables_if_else_while/0-positive_or_negative.c">&rarr;</a>
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable <code>n</code> is positive or negative.</p>**
 
