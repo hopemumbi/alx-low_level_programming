@@ -1,60 +1,11 @@
 # 0x01. C - Variables, if, else, while
 
-## GENERAL :open_book::open_book::open_book::
-
- <ol>
-	<li>What are the arithmetic operators and how to use them</li>
-	<li>What are the logical operators (sometimes called boolean operators) and how to use them</li>
-	<li>What the the relational operators and how to use them</li>
-	<li>What values are considered TRUE and FALSE in C</li>
-	<li>What are the boolean operators and how to use them</li>
-	<li>How to use the <code>if</code>, <code>if ... else</code> statements</li>
-	<li>How to use comments</li>
-	<li>How to declare variables of types <code>char</code>, <code>int</code>, <code>unsigned int</code></li>
-	<li>How to assign values to variables</li>
-	<li>How to print the values of variables of type <code>char</code>, <code>int</code>, <code>unsigned int</code> with <code>printf</code></li>
-	<li>How to use the <code>while</code> loop</li>
-	<li>How to use variables with the <code>while</code> loop</li>
-	<li>How to print variables using <code>printf</code></li>
-	<li>What is the <code>ASCII</code> character set</li>
-	<li>What are the purpose of the <code>gcc</code> flags <code>-m32</code> and <code>-m64</code></li>
-</ol>
-
-## RESOURCES:
-
- <ol>
-	<li><a href="/rltoken/GB1UNodFfec0AXUfmSxsLA" title="Everything you need to know to start with C.pdf" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.</em>)</li>
-	<li><a href="/rltoken/ckqC9BrBcMmv-DLmBauaWQ" title="Keywords and identifiers" target="_blank">Keywords and identifiers</a> </li>
-	<li><a href="/rltoken/Oau_6LT7-3IIt5ew_3Ac6g" title="integers" target="_blank">integers</a> </li>
-	<li><a href="/rltoken/r4hrHzg2X9JjnKj8sP_SAw" title="Arithmetic Operators in C" target="_blank">Arithmetic Operators in C</a> </li>
-	<li><a href="/rltoken/W93uajwXtW3WOxOaeBtF-A" title="If statements in C" target="_blank">If statements in C</a> </li>
-	<li><a href="/rltoken/PMD6eKdkj2RmIpagtABihw" title="if...else statement" target="_blank">if…else statement</a> </li>
-	<li><a href="/rltoken/dCy4644-X_WJMYxRZwCfFQ" title="Relational operators" target="_blank">Relational operators</a> </li>
-	<li><a href="/rltoken/gJzJXQoEdEN1Oxcutp_76Q" title="Logical operators" target="_blank">Logical operators</a> </li>
-	<li><a href="/rltoken/Qhq1p5UcR72-VXFJ_iAqWQ" title="while loop in C" target="_blank">while loop in C</a> </li>
-	<li><a href="/rltoken/RY9a1EDxRKNNHhxbJ6Pn_g" title="While loop" target="_blank">While loop</a> </li>
-</ol>
-
-## INTRODUCTION TO FILES :closed_book::closed_book::closed_book::
-
-0.	[**0-positive_or_negative.c**:](#0-positive_or_negativec) This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable <code>n</code> is positive or negative.
-1.	[**1-last_digit.c**:](#1-last_digitc) This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable <code>n</code>.
-2.	[**2-print_alphabet.c**:](#2-print_alphabetc) Program that prints the alphabet in lowercase, followed by a new line.
-3.	[**3-print_alphabets.c**:](#3-print_alphabetsc) Program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
-4.	[**4-print_alphabt.c**:](#4-print_alphabtc) Program that prints the alphabet in lowercase, followed by a new line.
-5.	[**5-print_numbers.c**:](#5-print_numbersc) Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.
-6.	[**6-print_numberz.c**:](#6-print_numberzc) Program that prints all single digit numbers of base 10 starting from <code>0</code>, followed by a new line.
-7.	[**7-print_tebahpla.c**:](#7-print_tebahplac) Program that prints the lowercase alphabet in reverse, followed by a new line.
-8.	[**8-print_base16.c**:](#8-print_base16c) Program that prints all the numbers of base 16 in lowercase, followed by a new line.
-9.	[**9-print_comb.c**:](#9-print_combc) Program that prints all possible combinations of single-digit numbers.
-10.	[**100-print_comb3.c**:](#100-print_comb3c) Program that prints all possible different combinations of two digits.
-11.	[**102-print_comb5.c**:](#102-print_comb5c) Program that prints all possible combinations of two two-digit numbers.
-
-## FILES :bookmark_tabs::bookmark_tabs::bookmark_tabs::
-
 ### 0-positive_or_negative.c
 
 **<p>This program will assign a random number to the variable <code>n</code> each time it is executed. Complete the source code in order to print whether the number stored in the variable <code>n</code> is positive or negative.</p>**
+<ul>
+	<li>You can find the source code <a href="https://github.com/alx-tools/0x01.c/blob/master/0-positive_or_negative_c">here</a></li>
+</ul>
 
 <pre><code>julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra 0-positive_or_negative.c -o 0-positive_or_negative
 julien@ubuntu:~/0x01$ ./0-positive_or_negative 
