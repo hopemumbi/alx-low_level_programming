@@ -8,9 +8,9 @@ int main(void)
 {
 	char lower;
 
-	for (lower = 97; lower <= 122; lower++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		if (lower != 101 && lower != 113)
+		if (lower != 'q' && lower != 'e')
 		putchar(lower);
 	}
 	putchar('\n');
