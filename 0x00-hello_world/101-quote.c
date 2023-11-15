@@ -13,7 +13,7 @@ int _putchar(char c)
  * main - prints to rtd output
  * without any functions listed in the NAME section
  * of (3) printf or man (3) puts
- * Return: 0 if successful
+ * Return: 1 if successful
  */
 int main(void)
 {
@@ -26,5 +26,5 @@ int main(void)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-		return (0);
+		return (1);
 }
