@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * n: our integer
- * lastdigit: integer
+ * @n: our integer
+ * @lastdigit: integer
  * Return: always (0)
  */
 int main(void)
