@@ -8,8 +8,8 @@ int main(void)
 {
 	char lower;
 
-	lower = 122;
-	while (lower >= 97)
+	lower = 'z';
+	while (lower >= 'a')
 	{
 		putchar(lower);
 		lower--;
