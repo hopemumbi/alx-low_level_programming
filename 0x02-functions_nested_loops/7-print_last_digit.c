@@ -2,7 +2,7 @@
 /**
  *print_last_digit - prints the last digit of a number.
  *@a: a number
- *Return: 'last' digit
+ *Return: 'last' digit @a
  */
 int print_last_digit(int a)
 {
