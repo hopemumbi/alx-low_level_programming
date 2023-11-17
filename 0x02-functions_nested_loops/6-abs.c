@@ -2,15 +2,13 @@
 /**
  * _abs - computes the absolute value of an integer.
  * @a: random no
- * Return: 'c' or 'a'
+ * Return: '-a' if a < 0 or 'a' if a > 0
  */
 int _abs(int a)
 {
 	if (a < 0)
 	{
-		int c = -c;
-		
-		return (c);
+		return (-a);
 	}
 	else
 	{
