@@ -9,9 +9,9 @@ void print_alphabet_x10(void)
 
 	while (i <= 9)
 	{
-		char j = 97;
+		char j = 'a';
 
-		while (j <= 122)
+		while (j <= 'z')
 		{
 			_putchar(j);
 			j++;
