@@ -5,10 +5,10 @@
  */
 void print_alphabet(void)
 {
-	int lower;
+	char lower;
 
-	lower = 97;
-	while (lower <= 122)
+	lower = 'a';
+	while (lower <= 'z')
 	{
 		_putchar(lower);
 		lower++;
