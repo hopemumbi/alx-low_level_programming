@@ -8,7 +8,7 @@ int main(void)
 {
 	int n = 50;
 	int i;
-	unsigned long int fib[n];
+	long int fib[n];
 
 	fib[0] = 1;
 	fib[1] = 2;
