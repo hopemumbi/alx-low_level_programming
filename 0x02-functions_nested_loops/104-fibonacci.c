@@ -14,7 +14,7 @@ int main(void)
 	a = 1;
 	b = 2;
 	/*Print the first two Fibonacci numbers*/
-	printf("%lu, %lu, ", a, b);
+	printf("%lu, %lu", a, b);
 	/*Generate and print the next 96 Fibonacci numbers*/
 	for (i = 2; i < 98; i++)
 	{
@@ -24,7 +24,7 @@ int main(void)
 		a = b;
 		b = next;
 		/*Print the current Fibonacci number*/
-		printf("%lu, ", next);
+		printf(", %lu", next);
 	}
 	printf("\n");
 	return (0);
