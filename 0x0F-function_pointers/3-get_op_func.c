@@ -24,7 +24,7 @@ int (*get_op_func(char *s))(int, int)
 	int i;
 
 	/*Iterate through the array of structures to find the matching operator*/
-	for (i = 0; ops[i].op != NULL; i++)
+	for (i = 0; i < 5; i++)
 	{
 		/**
 		 * Compare the first character of the operator argument
@@ -40,7 +40,5 @@ int (*get_op_func(char *s))(int, int)
 	 * If no matching operator is found,return NULL
 	 * (indicating an error or unsupported operator)
 	 */
-	printf("Error\n");
-	exit(99);
 	return (NULL);
 }
