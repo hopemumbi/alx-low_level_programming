@@ -9,8 +9,10 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
 
+	/*Check if the array and action function are not NULL*/
 	if (array != NULL && action != NULL)
 	{
+		/*Iterate through the array and apply the action function to each element*/
 		for (i = 0; i < size; i++)
 		{
 			action(array[i]);
