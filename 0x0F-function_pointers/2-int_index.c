@@ -14,6 +14,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 	/*Check if size is less than or equal to 0*/
 	if (size <= 0)
 		return (-1);
+
+	/*Check if array and cmp are not NULL*/
 	if (array != NULL && cmp != NULL)
 	{
 		/*Call the comparison function on the current array element*/
