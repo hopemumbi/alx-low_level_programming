@@ -24,7 +24,7 @@ int (*get_op_func(char *s))(int, int)
 	int i = 0;
 
 	/*Iterate through the array of structures to find the matching operator*/
-	while (i < 5)
+	while (ops[i].op != NULL)
 	{
 		/**
 		 * Compare the first character of the operator argument
