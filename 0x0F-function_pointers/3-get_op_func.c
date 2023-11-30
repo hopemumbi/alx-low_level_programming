@@ -41,7 +41,5 @@ int (*get_op_func(char *s))(int, int)
 	 * If no matching operator is found,return NULL
 	 * (indicating an error or unsupported operator)
 	 */
-	printf("Error\n");
-	exit(99);
 	return (NULL);
 }
