@@ -21,21 +21,20 @@ int (*get_op_func(char *s))(int, int)
 		/*Last element serves as a sentinel, indicating the end of the array*/
 		{NULL, NULL}
 	};
-	int i = 0;
+	int i;
 
+	i = 0;
 	/*Iterate through the array of structures to find the matching operator*/
-	while (ops[i].op != NULL)
+	while (i < 5)
 	{
 		/**
 		 * Compare the first character of the operator argument
 		 * with the operators in the array
 		 */
 		if (ops[i].op[0] == s[0])
-		{
 			/*If a match is found, return the corresponding function pointer*/
 			return (ops[i].f);
-			i++;
-		}
+		i++;
 	}
 	/**
 	 * If no matching operator is found,return NULL
