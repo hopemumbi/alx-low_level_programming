@@ -1,7 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-
-void print_opcodes(int bytes);
 /**
  * main - takes CL arguments, checks errors,
  * then calls the print_opcodes function.
@@ -13,7 +11,7 @@ void print_opcodes(int bytes);
  */
 int main(int argc, char **argv)
 {
-	int bytes;
+	int i, bytes;
 
 	if (argc != 2)
 	{
@@ -29,27 +27,15 @@ int main(int argc, char **argv)
 		exit(2);
 	}
 
-	print_opcodes(bytes);
-
-	return (0);
-}
-/**
- * print_opcodes - takes a pointer to a function and prints the opcodes
- * @bytes: Number of opcodes to print.
- */
-void print_opcodes(int bytes)
-{
-	int i;
-/*Pointer to the main function (print_opcodes in this case)*/
-	char *p = (char *)print_opcodes;
-
 	for (i = 0; i < bytes; i++)
 	{
 		/*Print the opcode in hexadecimal format*/
-		printf("%02x", (unsigned char)p[i]);
+		printf("%02x", *((unsigned char *)main + i));
 		/*Add a space if not the last byte*/
 		if (i < bytes - 1)
 			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n");
+	return (0);
 }
