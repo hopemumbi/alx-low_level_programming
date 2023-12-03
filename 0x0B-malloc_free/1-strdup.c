@@ -25,8 +25,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	/*Copy the string to the newly allocated memory */
-	for (i = 0; i <= length; i++)
-		dup[i] = str[i];
+	strcpy(dup, str);
 
 	return (dup);
 }
