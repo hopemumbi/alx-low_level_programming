@@ -10,13 +10,15 @@
 char *_strdup(char *str)
 {
 	char *dup;
-	int length;
+	int i, length;
 
 	if (str == NULL)
 		return (NULL);
 
 	/* Find the length of the string */
-	length = strlen(str);
+	length = 0;
+	while(str[length] != '\0')
+		length++;
 
 	/*Allocate memory for the duplicate string */
 	dup = malloc((length + 1) * sizeof(char));
@@ -25,7 +27,10 @@ char *_strdup(char *str)
 		return (NULL);
 
 	/*Copy the string to the newly allocated memory */
-	strcpy(dup, str);
+	for (i = 0; i < length; i++)
+		dup[i] = str[i];
+
+	dup[length] = '\0';
 
 	return (dup);
 }
