@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	/* Find the length of the string */
 	length = 0;
-	while(str[length] != '\0')
+	while (str[length] != '\0')
 		length++;
 
 	/*Allocate memory for the duplicate string */
