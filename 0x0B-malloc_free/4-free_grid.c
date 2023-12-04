@@ -7,7 +7,12 @@
  */
 void free_grid(int **grid, int height)
 {
-	grid = (int **)malloc(height * sizeof(int *));
+	int i;
 
+	/*Free memory for each row*/
+	for (i = 0; i < height; i++)
+		free(grid[i]);
+
+	/*Free memory for the array of pointers (rows)*/
 	free(grid);
 }
