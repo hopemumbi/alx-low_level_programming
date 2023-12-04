@@ -13,14 +13,14 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 	/*Allocate memory for rows(array  of pointers)*/
-	ar = (int **)malloc(height * sizeof(int *));
+	ar = malloc(height * sizeof(int *));
 	if (ar == NULL)/*check if memory allocation fails*/
 		return (NULL);
 
 	/*Allocate memory for columns in each row*/
 	for (i = 0; i < height; i++)
 	{
-		ar[i] = (int *)malloc(width * sizeof(int));
+		ar[i] = malloc(width * sizeof(int));
 		/*check if memory allocation was successful*/
 		if (ar[i] == NULL)
 		{
