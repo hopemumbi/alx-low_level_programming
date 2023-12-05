@@ -25,11 +25,12 @@ char **strtow(char *str)
 	for (i = 0; str[i]; i++)/*Count the number of words*/
 		if (!is_space(str[i]) && (i == 0 || is_space(str[i - 1])))
 			word_count++;
+	if (word_count == 0)
+		return (NULL);
 
 	words = malloc((word_count + 1) * sizeof(char *));
 	if (!words)
 		return (NULL);
-
 	for (i = 0, j = 0; i < word_count; i++)
 	{
 		while (is_space(str[j]))
@@ -47,7 +48,6 @@ char **strtow(char *str)
 			free(words);
 			return (NULL);
 		}
-
 		/*Copy the characters of the current word into the allocated memory*/
 		for (k = 0; k < len; k++)
 			words[i][k] = str[j + k];
