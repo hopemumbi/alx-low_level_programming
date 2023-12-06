@@ -17,6 +17,12 @@ int _atoi(char *s)
 			sign *= -1;
 		i++;
 	}
+	while (s[i] < '0' || s[i] > '9')
+	{
+		if (s[i] == '\0')
+			return (0);
+		i++;
+	}
 	while (s[i] >= '0' && s[i] <= '9')
 		{
 			if (result > INT_MAX / 10
