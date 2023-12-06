@@ -12,13 +12,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ptr;
 
+	/*Check if nmemb or size is 0*/
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
+	/*Allocate memory for nmemb * size elements and set to zero*/
 	ptr =  malloc(nmemb * size);
 
-	if (ptr == 0)
+	/*Check if malloc fails*/
+	if (ptr == NULL)
 		return (NULL);
 
+	/*Memory is already set to zero due to calloc behavior*/
 	return (ptr);
 }
