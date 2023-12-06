@@ -7,11 +7,11 @@
  */
 int _atoi(char *s)
 {
-	int i, sign, result, digit;
+	int i, sign, result, overflow;
 
 	sign = 1;
 	result = 0;
-	digit = 0;
+	overflow = 0;
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '-')
@@ -20,14 +20,14 @@ int _atoi(char *s)
 		}
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
-			if (result > (2147483647 - (s[i] - '0')) / 10)
+			if (result > INT_MAX / 10 || (result == INT_MAX / 10 && s[i] - '0' > INT_MAX % 10))
 			{
-				return ((sign == 1) ? 2147483647 : -2147483648);
+				overflow = 1;
+				break;
 			}
 			result = result * 10 + s[i] - '0';
-			digit = 1;
 		}
-		else if (digit)
+		else if (overflow || (result != 0 && (s[i] < '0' || s[i] > '9')))
 		{
 			break;
 		}
