@@ -13,8 +13,7 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
-	while(format != NULL && format[i] != '\0')
-	{
+	while (format[i] != '\0')
 		/*prints a comma and a space to separate the items being printed.*/
 		if (i > 0)
 			printf(", ");
