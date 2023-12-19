@@ -11,11 +11,19 @@ int wildcmp(char *s1, char *s2)
 	if (*s1 == '\0' && *s2 == '\0')
 		return (1);
 
-	 /* If the current characters match or s2 has a wildcard (*) */
-	if (*s1 == *s2 || *s2 == '*')
+	if (*s1 == *s2)
+	{
+		/*If the current characters match, move to the next character*/
+		return (wildcmp(s1 + 1, s2 + 1));
+	}
+
+	/* If s2 has a wildcard (*) */
+	if (*s2 == '*')
 	{
 		/* Try to match the rest of the strings */
-		if (wildcmp(s1 + 1, s2 + 1) || wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2))
+		if (*(s2 + 1) == '*')
+			return (wildcmp(s1, s2 + 1));
+		if (wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1))
 			return (1);
 	}
 
