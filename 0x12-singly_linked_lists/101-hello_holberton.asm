@@ -1,15 +1,10 @@
-section .data
-	hello db 'Hello, Holberton',0
 
-section .text
 	global main
-
+		extern printf
 main:
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, hello
-    mov edx, 13
-    int 0x80
-
-    mov eax, 1
-    int 0x80
+	mov edi, format
+	xor eax, eax
+	call printf
+	mov eax, 0
+	ret
+format: db `Hello, Holberton\n`,0
