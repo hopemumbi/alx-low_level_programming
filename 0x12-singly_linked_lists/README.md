@@ -333,7 +333,9 @@ julien@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 julien@ubuntu:~/0x12. Singly linked lists$ 
 ```
 <h1>100-first.c</h1>
-Write a function that prints **You're beat\! and yet, you must allow,\nI bore my house upon my back!\n** before the main function is executed.
+Write a function that prints
+>You're beat\! and yet, you must allow,\nI bore my house upon my back!\n
+before the main function is executed.
 
 You are allowed to use the `printf` function
 ```
@@ -358,7 +360,9 @@ I bore my house upon my back!
 julien@ubuntu:~/$ 
 ```
 <h1>101-hello_holberton.asm</h1>
-Write a 64-bit program in assembly that prints **Hello, Holberton**, followed by a new line.
+Write a 64-bit program in assembly that prints 
+>Hello, Holberton
+followed by a new line.
 
 You are only allowed to use the `printf `function
 You are not allowed to use interrupts
