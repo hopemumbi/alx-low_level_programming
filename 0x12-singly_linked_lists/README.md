@@ -334,7 +334,7 @@ julien@ubuntu:~/0x12. Singly linked lists$
 ```
 <h1>100-first.c</h1>
 Write a function that printf
-`You're beat\! and yet, you must allow,\nI bore my house upon my back!\n
+You're beat\! and yet, you must allow,\nI bore my house upon my back!\n
 before the main function is executed.
 
 You are allowed to use the `printf` function
