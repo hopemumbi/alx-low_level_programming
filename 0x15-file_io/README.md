@@ -193,6 +193,7 @@ julien@ubuntu:~/0x15. File descriptors and permissions$
 ```
 
 <h1> 3-cp.c </h1>
+
 Write a program that copies the content of a file to another file.
 * Usage: cp file_from file_to
 * if the number of argument is not the correct one, exit with code `97` and print `Usage: cp file_from file_to`, followed by a new line, on the `POSIX` standard error
@@ -206,6 +207,7 @@ where `NAME_OF_THE_FILE` is the first argument passed to your program
 * Permissions of the created file: `rw-rw-r--`. If the file already exists, do not change the permissions
 * You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
 * You are allowed to use `dprintf`
+  
 
 ```
 julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-cp.c -o cp
@@ -226,11 +228,12 @@ julien@ubuntu:~/0x15. File descriptors and permissions$
 ```
 
 <h1> 100-elf_header.c </h1>
+
 Write a program that displays the information contained in the `ELF` header at the start of an `ELF` file.
 * Usage: `elf_header elf_filename`
 * Displayed information: (no less, no more, do not include trailing whitespace)
-  * Magic
-  * Class
+*  Magic
+*  Class
   * Data
   * Version
   * OS/ABI
@@ -244,6 +247,8 @@ Write a program that displays the information contained in the `ELF` header at t
 * You are allowed to have as many functions as you want in your source file
 * You are allowed to use `printf`
 * man `elf`, `readelf`
+
+
 ```
 julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-elf_header.c -o elf_header
 julien@ubuntu:~/0x15. File descriptors and permissions$ ./elf_header ubuntu64 
