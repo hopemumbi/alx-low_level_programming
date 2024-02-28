@@ -14,7 +14,7 @@ int main(int ac, char **av)
 {
 	int o_from, o_to;
 	char buffer[1024];
-	ssize_t read_from;
+	ssize_t readd, written;
 
 	if (ac != 3)
 	{
@@ -35,12 +35,20 @@ int main(int ac, char **av)
 		close(o_from);
 	}
 
-	read_from = read(o_from, buffer, 1024);
-	write(o_to, buffer, read_from);
+	while ((readd = read(o_from, buffer, BUF_SIZE)) > 0)
+	{
+		written = write(o_to, buffer, readd);
+		if ((written == -1) || (written != readd))
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+			exit(99);
+		}
+		
+	}
 
 	if ((close(o_from) == -1) || (close(o_to) == -1))
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd ");
+		dprintf(STDERR_FILENO, "Error: Can't close fd\n");
 		exit(100);
 	}
 	return (0);
