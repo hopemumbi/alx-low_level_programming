@@ -43,13 +43,13 @@ int main(int ac, char **av)
 	}
 	if (readd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from %s\n", av[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
 		exit(98);
 	}
 
 	if ((close(o_from) == -1) || (close(o_to) == -1))
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd\n"), exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", o_from), exit(100);
 	}
 	return (0);
 }
