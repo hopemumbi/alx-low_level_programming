@@ -33,9 +33,9 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	{
 		/* set its previous to the new node */
 		(*head)->prev = new;
-		/* update the head to point to the new node making it the new head*/
-		(*head) = new;
 	}
+	/* update the head to point to the new node making it the new head*/
+	(*head) = new;
 	/* the address of the new element */
 	return (new);
 }
