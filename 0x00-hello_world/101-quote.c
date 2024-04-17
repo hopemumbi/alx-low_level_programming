@@ -7,12 +7,12 @@
  */
 int _putchar(char c)
 {
-	/*
-	 *@1: where the data will be written.1 represents the standard output.
-	 *@&c: The address of the character c
-    	 *@!: number of bytes to write. 1 for one character at a time.
-      	 */
-	return (write(1, &c, 1));
+	/**
+	 * @1: where the data will be written.1 represents the standard output.
+	 * @&c: The address of the character c
+	 * @!: number of bytes to write. 1 for one character at a time.
+	 */
+	return (write(STDERR_FILENO, &c, 1));
 }
 /**
  * main - prints to rtd output
