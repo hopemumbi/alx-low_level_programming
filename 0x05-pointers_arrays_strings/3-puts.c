@@ -1,15 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _puts - prints a string to stdout
- * @str: pointer to string
+ * _puts - writes the string pointed to by 'str' to stdout
+ *         followed by a newline character.
+ *
+ * @str: The string to write.
  */
 void _puts(char *str)
 {
+	/* Loop through each character in the string until reaching '\0' */
 	while (*str != '\0')
 	{
-		putchar(*str);
+		/* Write the current character to stdout */
+		_putchar(*str);
+		/* Move to the next character in the string */
 		str++;
 	}
-	putchar('\n');
+	/* Write a newline character to stdout */
+	_putchar('\n');
 }
