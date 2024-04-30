@@ -38,10 +38,11 @@ void print_float(va_list args)
  */
 void print_str(va_list args)
 {
-	char *s;
+	char *str;
 
-	s = va_arg(args, char *);
-	if (s == NULL)
+	str = va_arg(args, char *);
+
+	if (str == NULL)
 	{
 		printf("(nil)");
 		return;
