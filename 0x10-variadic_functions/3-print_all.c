@@ -42,9 +42,10 @@ void print_str(va_list args)
 
 	s = va_arg(args, char *);
 	if (s == NULL)
+	{
 		printf("(nil)");
-	else
-		printf("%s", s);
+	}
+	printf("%s", s);
 }
 
 /**
