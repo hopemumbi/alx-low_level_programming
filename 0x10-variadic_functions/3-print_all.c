@@ -72,7 +72,7 @@ void print_all(const char * const format, ...)
 	va_start(args, format);
 
 	/* Loop through each character in the format string */
-	while (format[i] != '\0')
+	while (format && format[i] != '\0')
 	{
 		j = 0; /* Reset inner loop counter */
 
