@@ -1,9 +1,11 @@
 #include <stdarg.h>
 /**
- *sum_them_all - Returns the sum of all its parameters.
- *@n: The number of parameters.
- *@...: Variable number of parameters.
- *Return: The sum of all parameters.
+ * sum_them_all - Returns the sum of all its parameters.
+ *
+ * @n: The number of parameters.
+ * @...: Variable number of parameters.
+ *
+ * Return: The sum of all parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
