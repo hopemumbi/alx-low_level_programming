@@ -48,7 +48,7 @@ void print_str(va_list args)
 		return;
 	}
 	
-	printf("%s", s);
+	printf("%s", str);
 }
 
 /**
