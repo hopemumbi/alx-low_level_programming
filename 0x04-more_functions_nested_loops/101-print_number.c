@@ -1,11 +1,18 @@
 #include "main.h"
-
+#include <limits.h>
 /**
  * print_number - Prints an integer.
  * @n: The integer to be printed.
  */
 void print_number(int n)
 {
+	/* Special case for INT_MIN */
+	if (n == INT_MIN)
+	{
+		_putchar('-');
+		_putchar('2');
+		n = 147483648;
+	}
 	/* Handle negative numbers */
 	if (n < 0)
 	{
