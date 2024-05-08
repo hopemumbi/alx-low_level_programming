@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0; i < 92; i++) /* Print the first 92 */
 	{
 		next = a + b; /*Calculate the next Fib number in sequence*/
-		printf(", %lu", next);
+		printf("%lu, ", next);
 		a = b; /* Update variables for the next iteration*/
 		b = next;
 	}
