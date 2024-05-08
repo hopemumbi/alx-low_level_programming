@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  * print_number - prints an integer
  * @n: integer
@@ -9,13 +10,14 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
-	}
-	/** handles the special case of the most negative number**/
-	if (n == -214748364)
-	{
-		_putchar('-');
-		n = 214748364;
+		/** handles the special case of the most negative number**/
+		if (n == INT_MIN)
+		{
+			_putchar('2');
+			n = 147483648;
+		}
+		else
+			n = -n;
 	}
 	/**
 	 * recursive function
