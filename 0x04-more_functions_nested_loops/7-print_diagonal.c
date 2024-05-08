@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_line - draw a straight line
+ * print_diagonal - draw a straight line
  * @n: int
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
